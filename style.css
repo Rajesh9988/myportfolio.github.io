@@ -1,0 +1,654 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+body{
+    overflow-x: hidden;
+}
+
+/* section one css start from here  */
+#sect1 {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    /* border: 1px solid black; */
+}
+
+/* navbar work css is here  */
+.navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    position: fixed;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15);
+}
+#ham{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    display: none;
+}
+
+/* navbar name css is here  */
+.name-div {
+    position: absolute;
+    right: 1000px;
+    border-bottom: 5px solid red;
+}
+
+.name-div h1 {
+    font-size: 2.1rem;
+    font-family: 'Paytone One', sans-serif;
+}
+
+/* list items css is here  */
+.Ul-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+    position: absolute;
+    left: 500px;
+
+}
+
+.Ul-list li {
+    list-style: none;
+}
+
+.Ul-list li a {
+    text-decoration: none;
+    font-size: 19px;
+    margin: 30px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+    color: black;
+}
+
+.Ul-list li a:hover {
+    color: red;
+}
+
+.Ul-list .hambar{
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+/* section css end from here  */
+
+/* section two css :start from here  */
+#sect2 {
+    width: 100%;
+    height: 750px;
+    overflow: hidden;
+    z-index: -1;
+    /* border: 1px solid black; */
+}
+
+.containter-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.containter-div h1:first-child {
+    font-size: 11rem;
+    color: red;
+    font-family: 'Rajdhani', sans-serif;
+    margin-left: 50px;
+    z-index: -1;
+
+}
+
+.containter-div h1:nth-child(2) {
+    font-size: 11rem;
+    color: rgb(26, 25, 25);
+    font-family: 'Rajdhani', sans-serif;
+    margin-left: 50px;
+    z-index: -1;
+}
+
+.containter-div .content-box {
+    width: 400px;
+    height: 150px;
+    /* border:1px solid black; */
+    margin-left: 100px;
+    position: relative;
+    top: 20px;
+    text-align: left;
+    z-index: -1;
+}
+
+.containter-div p {
+    font-size: 20px;
+    /* text-align: center; */
+    margin-left: 5px;
+    color: rgb(26, 25, 25);
+    font-family: 'Rajdhani', sans-serif;
+   
+}
+
+.containter-div .button-box {
+    width: 200px;
+    height: 70px;
+    border: 2px solid rgb(26, 25, 25);
+    margin-left: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.containter-div .button-box #btn {
+    width: 200px;
+    height: 70px;
+    outline: none;
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.5s linear;
+}
+
+/* hover effect on contact button  */
+.containter-div .button-box #btn:hover {
+    background-color: rgb(26, 25, 25);
+}
+
+.containter-div .button-box #btn:hover a {
+    color: white;
+}
+
+.containter-div .button-box #btn a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+/* social links css is here  */
+.social-links {
+    width: 300px;
+    height: 50px;
+    /* border: 1px solid black; */
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links .social-icons {
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 4px 2px rgb(146, 145, 145);
+}
+
+.social-links .social-icons a {
+    text-decoration: none;
+}
+
+.social-links .social-icons .fa {
+    font-size: 25px;
+    color: black;
+}
+
+/* adding colors on social icons  */
+/* for instagram */
+.social-links .social-icons .fa-instagram {
+    color: red;
+}
+
+/* for twitter */
+.social-links .social-icons .fa-twitter {
+    color: lightseagreen;
+}
+
+/* for youTube  */
+.social-links .social-icons .fa-youtube-play {
+    color: red;
+}
+
+/* for facebook */
+.social-links .social-icons .fa-facebook {
+    color: blue;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>       section two........  */
+/* section three css :start from here  */
+#sect3 {
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    overflow: hidden;
+    z-index: -999;
+}
+
+.moderen-skill-content-div {
+    width: 50%;
+    height: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.moderen-skill-content-div span {
+    font-size: 21px;
+    font-family: 'Rajdhani', sans-serif;
+    margin: 25px 25px;
+    color: rgb(26, 25, 25);
+}
+
+.moderen-skill-content-div h1 {
+    font-size: 5rem;
+    font-family: 'Rajdhani', sans-serif;
+    color: rgb(26, 25, 25);
+    margin-left: 50px;
+    position: relative;
+    top: 10px;
+    z-index: -1;
+}
+
+/* small color changing here  */
+.moderen-skill-content-div #exp {
+    color: red;
+}
+
+.moderen-skill-content-div p {
+    color: rgb(26, 25, 25);
+    font-size: 19px;
+    font-family: 'Rajdhani', sans-serif;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+/* skills showing box css is here  */
+.show-my-skills {
+    width: 50%;
+    height: 400px;
+    /* border: 1px solid black; */
+}
+
+.show-my-skills img {
+    width: 100%;
+    height: 400px;
+}
+
+.show-my-skills .skills {
+    width: 500px;
+    height: 80px;
+    /* border: 1px solid black; */
+    margin: 15px 15px;
+    margin-left: 50px;
+}
+
+.show-my-skills .skills h2 {
+    font-size: 24px;
+    font-family: 'Rajdhani', sans-serif;
+    margin: 10px 30px;
+}
+
+/* adding css on skill portion  */
+.show-my-skills .skills .skill-box {
+    width: 450px;
+    height: 15px;
+    /* border: 1px solid black; */
+    margin: 10px 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+/* section four css start from here >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+#sect4 {
+    width: 99.9%;
+    height: 450px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+
+/* skills about-cotainer-box css is here  */
+.about-cotainer-box {
+    width: 99.9%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* skill skill-name-box box css is here ...........................  */
+.about-cotainer-box .skill-name-box {
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.about-cotainer-box .skill-name-box h1 {
+    font-size: 3rem;
+    font-family: 'Rajdhani', sans-serif;
+    margin-left: 100px;
+    /* color: ; */
+    border-bottom: 5px solid red;
+
+}
+
+.skill-divs {
+    width: 99.9%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.outer-skill-div {
+    width: 200px;
+    height: 250px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.outer-skill-div h1 {
+    font-size: 25px;
+    font-family: 'Rajdhani', sans-serif;
+    margin-bottom: 15px;
+    color: rgb(26, 25, 25);
+}
+
+skill box css is here .skil {
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+
+.outer-div {
+    height: 160px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(206, 135, 135, 0.7);
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.inner-div {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+        inset -4px -4px 6px -1px rgba(178, 56, 56, 0.7),
+        -0.5px -0.5px 0px rgb(255, 255, 255),
+        0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+        0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+
+.num {
+    font-weight: 600;
+    color: black;
+    font-size: 25px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+/* section five css start from here >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+#sect5{
+    width: 99.8%;
+    height: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    /* background-image: url(/img/photo1.jpeg); */
+}
+#sect5 .section5-first-box{
+    width: 40%;
+    height: 550px;
+    overflow: hidden;
+    margin-left: 10px;
+    /* border: 3px solid red; */
+    border-radius: 5px;
+    z-index: -1;
+}
+
+/* image css is here  */
+#sect5 .section5-first-box img{
+    width: 100%;
+    height: 550px;
+    transition: all 0.3s linear;
+    z-index: -99;
+    /* position: absolute; */
+}
+#sect5 .section5-first-box img:hover{
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.05);
+    z-index: -999;
+}
+
+/* section5-second-box css is here  */
+.section5-second-box{
+    width: 60%;
+    height: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+.section5-second-box  h1{
+    font-size: 5.5rem;
+    margin: 30px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.section5-second-box  h1 span{
+    color: red;
+    /* border-bottom: 5px solid black; */
+
+}
+
+/* css for .section5-second-box paragraph  */
+.section5-second-box p {
+    font-size: 25px;
+    margin: 45px;
+    text-align: left;
+    color: rgb(120, 120, 120);
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+/* section six css start frm here .....................................................................  */
+#sect6{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+}
+
+.development-container-div{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+.development-container-div .development{
+    width: 30%;
+    height: 500px;
+    z-index: -1;
+    /* border: 1px solid black; */
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    overflow: hidden;
+    border-radius: 5px;
+    animation: animate 0.5s  linear;
+    /* opacity: 0; */
+    /* display: none; */
+}
+/* .development-container-div .development:hover{
+    transform: scale(1.2);
+} */
+@keyframes animate {
+    100%{
+        /* transform: scale(1.1); */
+        opacity: 1;
+    }
+}
+.development-container-div .development .image-box{
+    width: 70%;
+    height: 200px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.development-container-div .development .image-box img{
+    width: 70%;
+    height: 200px;
+}
+.development-container-div .development h1{
+    font-size: 2.5rem;
+    font-family: 'Rajdhani', sans-serif;
+    color: red;
+}
+.development-container-div .development p{
+    font-size: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    margin: 25px 15px;
+    /* margin-top: 0px; */
+    color: rgb(120, 120, 120);
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+}
+
+
+/* sectiono seven css is here   ......................... */
+#sect7{
+    width: 100%;
+    height: 350px;
+    border: 1px solid black;
+}
+
+/* footer-container css is here .............  */
+.footer-container{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+/* learning-box css is here  */
+.learning-box{
+    width: 50%;
+    height: 250px;
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items: left;
+}
+.learning-box h1{
+    font-size: 1.9rem;
+    font-family: 'Rajdhani', sans-serif;
+    position: relative;
+    color: red;
+    margin: 25px 25px;
+    border-bottom: 2px solid black;
+
+}
+.learning-box li{
+    margin: 3px 150px;
+    list-style:none;
+}
+.learning-box li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border-bottom: 2px solid red;
+    letter-spacing: 2px;
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+/* contact-div-box css is here  */
+.contact-div-box{
+    width: 50%;
+    height: 250px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+}
+.contact-div-box h1{
+    font-size: 1.9rem;
+    color: red;
+    font-family: 'Rajdhani', sans-serif;
+    margin: 25px 25px;
+    border-bottom: 2px solid black;
+}
+.contact-div-box form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-div-box input{
+    width: 350px;
+    height: 25px;
+    margin: 5px 100px;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+}
+.contact-div-box #submit{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border: 2px solid red;
+    background-color: #fff;
+    border-radius: 5px;
+    font-family: 'Rajdhani', sans-serif;
+    /* padding: 10px; */
+}

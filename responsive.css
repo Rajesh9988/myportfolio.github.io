@@ -1,0 +1,363 @@
+@media (max-width:400px) {
+
+    #sect1 {
+        width: 100% !important;
+        z-index: 999;
+        /* display: none; */
+        /* background-color: brown; */
+    }
+
+    .name-div {
+        position: absolute;
+        right: 150px !important;
+        z-index: 999;
+    }
+
+    .navbar {
+        z-index: 999;
+        position: fixed;
+    }
+
+    .navbar #ham {
+        display: block;
+        display: flex !important;
+        position: absolute;
+        left: 300px;
+        top: 30px;
+        z-index: 99;
+    }
+
+    .navbar #ham .fa-bars {
+        font-size: 28px;
+    }
+
+    .Ul-list {
+        position: absolute;
+        flex-direction: column;
+        width: 99%;
+        height: 400px;
+        left: 0px !important;
+        /* left: -410px; */
+        top: -410px;
+        /* opacity: 0; */
+        /* border: 1px solid black; */
+        background-color: #fff;
+        z-index: 1;
+        transition: all 0.7s linear;
+        box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15);
+        z-index: 0;
+        /* display: none !important; */
+    }
+
+    .Ul-list li {
+        margin: 20px;
+        z-index: -1;
+
+
+    }
+
+    /* cross button css is here  */
+    .Ul-list .hambar {
+        display: block !important;
+        z-index: 99999;
+        background-color: #fff;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+
+
+    }
+
+    .hambar .fa-times {
+        font-size: 35px;
+        margin: auto;
+        color: red;
+        font-weight: 100;
+    }
+
+    /* section two responsive css start from here  */
+    #sect2 {
+        width: 100%;
+        height: 500px !important;
+        overflow: hidden;
+    }
+
+    .containter-div h1:first-child {
+        font-size: 4rem !important;
+        margin-left: 30px !important;
+        margin-top: 20px;
+    }
+
+    .containter-div h1:nth-child(2) {
+        font-size: 4rem !important;
+        margin-left: 30px !important;
+    }
+
+    .containter-div .content-box {
+        margin-left: 30px !important;
+        width: 350px !important;
+    }
+
+    .containter-div .button-box {
+        margin-left: 80px !important;
+        position: relative;
+        top: -10px;
+    }
+
+    /* center social icons  */
+    .social-links {
+        margin-left: 30px !important;
+    }
+
+
+    /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>       section three........  */
+    #sect3 {
+        width: 100%;
+        height: 800px !important;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    /* modren expirence box  */
+    .moderen-skill-content-div {
+        width: 375px !important;
+        height: 400px !important;
+        /* border: 1px solid blue !important; */
+        overflow: hidden;
+        /*adding overflow hidden*/
+        margin-top: 20px;
+
+    }
+
+    /* changing my skill font size  */
+    .moderen-skill-content-div span {
+        font-size: 18px !important;
+    }
+
+    .moderen-skill-content-div h1 {
+        font-size: 3.2rem !important;
+        margin-left: 30px !important;
+    }
+
+    /* about my selft paragraph setting  */
+    .moderen-skill-content-div p {
+        font-size: 18px !important;
+        margin-left: 25px !important;
+    }
+
+    /* my skills box div css is here  */
+    /* setting widht and height in .show-my-skills box  */
+    .show-my-skills {
+        width: 375px !important;
+        /* border: 1px solid blue !important; */
+    }
+
+    /* skills portion css is here  */
+
+
+    /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>       section four........  */
+    #sect4 {
+        width: 99% !important;
+        /* overflow: hidden; */
+        height: 750px !important;
+    }
+
+    .about-cotainer-box .skill-name-box h1 {
+        margin-left: 30px !important;
+        border-bottom: 5px solid black !important;
+        color: red;
+    }
+
+    .about-cotainer-box {
+        /* flex-direction: row; */
+        width: 99% !important;
+        /* overflow: hidden; */
+        height: 600px !important;
+        /* border: 1px solid black; */
+    }
+
+    .skill-divs {
+        /* flex-direction: row; */
+        /* border: 1px solid black; */
+        height: 1000px !important;
+        flex-wrap: wrap;
+    }
+
+    /* outter skill div css is here  */
+    .outer-skill-div {
+        width: 300px !important;
+        height: 100px !important;
+        /* border: 1px solid black; */
+        flex-direction: row !important;
+        justify-content: right !important;
+        align-items: baseline;
+        margin: 20px !important;
+    }
+
+    .outer-skill-div h1 {
+        margin-bottom: 0px !important;
+        margin-right: 50px;
+
+    }
+
+    /* skills circle css is here  */
+    .skil {
+        width: 100px !important;
+        height: 100px !important;
+
+    }
+
+    /* .outer-div css is here  */
+    .outer-div {
+        width: 100px !important;
+        height: 100px !important;
+        /* background-color: red; */
+        /* margin-left: 50px; */
+    }
+
+    /* .inner-div css is here    */
+    .inner-div {
+        width: 80px !important;
+        height: 80px !important;
+        /* background-color: #fff; */
+    }
+
+
+    /* section five responsive start from here  */
+    #sect5{
+        width: 99%;
+        height: 850px !important;
+        /* border: 1px solid black; */
+        overflow: hidden;
+        flex-direction: column;
+        position: relative;
+        top: -50px;
+    }
+
+    #sect5 .section5-first-box{
+        width: 99% !important;
+        height: 400px !important;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px !important;
+    }
+
+    #sect5 .section5-first-box img{
+        width: 90% !important;
+        height: 400px !important;
+    }
+
+    /* .section5-second-box responsive css is here  */
+    .section5-second-box{
+        width: 99% !important;
+        height: 400px !important;
+        /* border: 1px solid black; */
+    }
+    .section5-second-box h1{
+        font-size: 3.1rem  !important;
+        margin: 20px !important;
+    }
+
+    .section5-second-box p{
+        font-size: 20px !important;
+        margin: 30px !important;
+    }
+
+
+
+
+    /* section six css start from here  ..........................................*/
+    #sect6{
+        width: 100%;
+        height: 1570px !important;
+        /* border: 1px solid black; */
+    }
+    /* .development-container-div css is here  */
+    .development-container-div{
+        width: 99% !important;
+        height: 1570px !important;
+        flex-direction: column;
+        justify-content:flex-start !important;
+    }
+
+    /* .development-container-div .development css is here ........................ */
+    .development-container-div .development{
+        width: 90% !important;
+        height: 450px !important;
+    }
+
+    /* .development-container-div .development .image-box css is here  */
+    .development-container-div .development .image-box{
+        width: 70% !important;
+        top: 0px !important;
+    }
+
+    .development-container-div .development h1{
+        font-size: 2rem !important;
+        margin-top: 15px;
+    }
+    /* .development-container-div .development p css is here  ....... */
+    .development-container-div .development p{
+        font-size: 18px !important;
+    }
+
+
+    /* section seven css is heren  */
+    #sect7{
+        width: 100%;
+        height: 700px !important;
+    }
+    .footer-container{
+        flex-direction: column;
+        width: 100%;
+        height: 700px !important;
+    }
+    .learning-box{
+        width: 90% !important;
+        height: 250px !important;
+        /* border: 1px solid black; */
+    }
+    .learning-box h1{
+        font-size: 1.5rem !important;
+    }
+    .learning-box li{
+    margin: 3px 50px !important;
+
+    }
+    .learning-box li a{
+        font-size: 16px !important;
+    }
+
+
+    .contact-div-box{
+        width: 90% !important;
+        height: 300px !important;
+        /* border: 1px solid black; */
+        margin-top: 20px;
+    }
+    .contact-div-box h1{
+        font-size: 1.5rem !important;
+    }
+
+    /* .contact-div-box input css is here  */
+    .contact-div-box input{
+        width: 250px !important;
+        margin: 5px 50px !important;
+    }
+
+    .contact-div-box #submit{
+        width: 100px !important;
+    }
+
+
+
+
+
+}
+
+/* second media query ...................................................................................  */
+
+
